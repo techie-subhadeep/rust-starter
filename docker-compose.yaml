@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  app:
+    build: .
+    volumes:
+      - "./:/app"
+      - "./.docker-data/app/vscode-server:/root/.vscode-server"
+    command: /bin/bash -c "cargo run --package app --bin app"

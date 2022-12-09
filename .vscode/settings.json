@@ -1,0 +1,20 @@
+{
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/*.egg*": true
+    },
+    "files.watcherExclude": {
+        "**/.docker-data": true
+    },
+    "search.exclude": {
+        "**/.docker-data": true
+    },
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules",
+        "**/.docker-data"
+    ],
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.formatOnSave": true,
+}
